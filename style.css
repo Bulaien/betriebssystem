@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height:94%;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.icon {
+
+    width: 4%;
+    aspect-ratio: 1 / 1;
+    /* background-color:rgb(116, 114, 114); */
+    /* border: 1px solid gray; */
+}
+
+#icon1 img {
+    width: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#icon2 img {
+    width: 100%;
+    background-color: rgb(255, 38, 0);
+    border-radius: 10px;
+}
+#icon3 img {
+    width: 100%;
+    background-color: rgb(129, 171, 224);
+    border-radius: 10px;
+}
+#icon4 img {
+    width: 100%;
+    background-color: rgb(0, 255, 179);
+    border-radius: 10px;
+}
+
+#icon1 {
+    
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    
+    /* background-color:rgb(54, 211, 14); */
+    
+    border-radius: 10%;
+    background-size: cover;
+
+}
+
+
+#icon2 {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    
+    
+    border-radius: 10%;
+    background-size: cover;
+}
+#icon3 {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    border-radius: 10%;
+    background-size: cover;
+}
+#icon4 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+   
+    
+    border-radius: 10%;
+    background-size: cover;
+}
+
+p { 
+    text-align: center;
+}
+
+.taskleiste {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+task {
+    height: 6%;
+    
+    display: flex;
+    background-color: rgb(145, 145, 145);
+}
+
+.tasks {
+    width: 97vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.tasks ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.tasks ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid rgb(116, 114, 114);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.tasks ul li:hover {
+    background-color: rgb(155, 155, 155);
+}
+
+ .logo {
+    height: 95%;
+    width:4%;
+    background-image: url("redhat-brands.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.logo:hover {
+
+    background-color: aliceblue;
+}
+
+.modal-uhr {
+    display: none;
+    background-color: #fefefe5e;
+    position: absolute;
+    bottom: -20%;
+    right:0;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 15%; 
+    border-radius: 10px;
+    z-index: 3;
+
+}
+
+.modal-ubermich{
+    display: none;
+    background-color: #d4e5f5;
+    position: absolute;
+    left: 5%;
+    top:20%;
+    right:55%;
+    bottom:30%;
+    /* width:100%; */
+    border: 2px solid rgba(0, 0, 0, 0.466);
+   
+}
+.modal-arbeiten{
+    display: none;
+    background-color: #000000;
+    position: absolute;
+    left: 10%;
+    top:10%;
+    right:40%;
+    bottom:20%;
+    /* width:100%; */
+    border: 2px solid rgba(0, 0, 0, 0.466);
+   
+}
+
+.arbeit-main {
+    width: 100%;
+    height: calc(100% - 40px);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 5px;
+}
+
+.arbeit-main .container1 {
+    background-image: url('cloq.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.arbeit-main .container2 {
+    background-image: url('deepl.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.arbeit-main .container3 {
+    background-image: url('cloq-eng.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.arbeit-main .container4 {
+    background-image: url('testemonial.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.arbeit-main .container5 {
+    background-image: url('analog_clock.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.arbeit-main .container6 {
+    background-image: url('advice_generator.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.ubermain  {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    align-items: center;
+    width: 90%;
+    height: 96%;
+    
+    
+
+}
+
+.ubermain h1, h2 {
+    padding: 20px;
+    color:rgb(17, 17, 87);
+    font-size: 5vh;
+}
+
+.ubermain p {
+    font-size: 2.5vh;
+}
+
+.oberebar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 66%, rgba(0,212,255,1) 100%);
+    
+}
+
+.window-left {
+    color: white;
+    padding-left: 10px;
+    font-size:3vh;
+    font-weight: 700;
+}
+
+.window-right, .window-right1 {
+    padding-right: 10px;
+    font-size:3vh;
+    font-weight: 900;
+}
+
+.window-right:hover, .window-right1:hover {
+    color:#888;
+    cursor: pointer;
+}
+
+/* @media screen  and (max-width: 1700px) {
+    .ubermain h1, h2 {
+        padding: 20px;
+        color:rgb(17, 17, 87);
+        font-size: 2.4rem;
+    }
+    
+    .ubermain p {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .ubermain h1, h2 {
+        padding: 20px;
+        color:rgb(17, 17, 87);
+        font-size: 1.5rem;
+    }
+    
+    .ubermain p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .ubermain h1, h2 {
+        padding: 20px;
+        color:rgb(17, 17, 87);
+        font-size: 1.3rem;
+    }
+    
+    .ubermain p {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .ubermain h1, h2 {
+        padding: 20px;
+        color:rgb(17, 17, 87);
+        font-size: 1rem;
+    }
+    
+    .ubermain p {
+        font-size: 0.9rem;
+    }
+    
+} */
+
