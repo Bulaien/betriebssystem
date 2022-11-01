@@ -13,14 +13,16 @@ body {
 
 main {
     height:94%;
-    background-image: url("back.jpg");
+    background-image: url("back1.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center; 
     position: relative;
 }
 .icon {
 
     width: 4%;
+    color:white;
     aspect-ratio: 1 / 1;
     /* background-color:rgb(116, 114, 114); */
     /* border: 1px solid gray; */
@@ -261,11 +263,11 @@ task {
 .ubermain h1, h2 {
     padding: 20px;
     color:rgb(17, 17, 87);
-    font-size: 5vh;
+    font-size: 7vh;
 }
 
 .ubermain p {
-    font-size: 2vh;
+    font-size: 8vh;
 }
 
 .oberebar {
@@ -315,11 +317,11 @@ task {
     .ubermain h1, h2 {
         padding: 20px;
         color:rgb(17, 17, 87);
-        font-size: 1.5rem;
+        font-size:  calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     }
     
     .ubermain p {
-        font-size: 1.0rem;
+        font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
         text-align: center;
     }
     
@@ -329,11 +331,11 @@ task {
     .ubermain h1, h2 {
         padding: 20px;
         color:rgb(17, 17, 87);
-        font-size: 1.1rem;
+        font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     }
     
     .ubermain p {
-        font-size: 0.9rem;
+        font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     }
     
 }
@@ -342,11 +344,11 @@ task {
     .ubermain h1, h2 {
         padding: 20px;
         color:rgb(17, 17, 87);
-        font-size: 1rem;
+        font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     }
     
     .ubermain p {
-        font-size: 0.9rem;
+        font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
     }
     
 } 
