@@ -178,8 +178,7 @@ task {
     position: absolute;
     left: 5%;
     top:8%;
-    right:10%;
-    bottom:10%;
+   
     /* width:100%; */
     border: 2px solid rgba(0, 0, 0, 0.466);
    
@@ -263,11 +262,11 @@ task {
 .ubermain h1, h2 {
     padding: 20px;
     color:rgb(17, 17, 87);
-    font-size: 7vh;
+    font-size: 5vh;
 }
 
 .ubermain p {
-    font-size: 8vh;
+    font-size: 4vh;
 }
 
 .oberebar {
